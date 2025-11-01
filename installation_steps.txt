@@ -1,0 +1,15 @@
+# Step 1: Clone or download the project
+cd /path/to/project
+
+# Step 2: Create virtual environment
+python -m venv venv
+source venv/bin/activate          # On Windows: venv\Scripts\activate
+
+# Step 3: Install dependencies
+pip install -r requirements.txt
+
+# Step 4: Run the application
+streamlit run diet_workout_app.py
+
+# Step 5: Access the app
+# Open browser to http://localhost:8501
